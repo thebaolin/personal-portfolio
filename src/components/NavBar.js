@@ -22,7 +22,7 @@ export const NavBar = () => {
     }, [])
 
     //hello
-
+asdasdad
     return {
         <Navbar expand="lg">
         <Container>
