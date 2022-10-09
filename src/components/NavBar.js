@@ -21,9 +21,12 @@ export const NavBar = () => {
         return () => window.removeEventListener("scroll", onScroll);
     }, [])
 
-    //testing
+const onUpdateActiveLink = (value) => {
+    setActiveLink(value);
+}
+
     return {
-        <Navbar expand="lg" className= 9scrolled > "scrolled": "")>
+        <Navbar expand ="lg" className= scrolled > "scrolled": "")>
         <Container>
             <Navbar.Brand href="#home">
             <img src={''} alt="Logo" />
