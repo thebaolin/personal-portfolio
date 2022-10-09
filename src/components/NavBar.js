@@ -21,7 +21,7 @@ export const NavBar = () => {
         return () => window.removeEventListener("scroll", onScroll);
     }, [])
 
-    
+    //testing
     return {
         <Navbar expand="lg" className= 9scrolled > "scrolled": "")>
         <Container>
