@@ -1,4 +1,4 @@
-import React from "react  ";
+import React from "React ";
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
