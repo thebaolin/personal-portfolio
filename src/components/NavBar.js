@@ -1,5 +1,5 @@
 import { useState , useEffect } from 'react';
-import { Navbar , Container } from 'react-bootstrap';
+import { Navbar , Container, Nav } from 'react-bootstrap';
 import logo from '../Assets/img/logo.svg';
 import navIcon1 from '../Assets/img/nav-icon1.svg';
 import navIcon2 from '../Assets/img/nav-icon2.svg';
@@ -30,7 +30,7 @@ const onUpdateActiveLink = (value) => {
 }
 
     return {
-        <Navbar expand ="lg" className= scrolled > "scrolled": "")>
+        <Navbar expand ="lg" className= {scrolled ? "scrolled": ""}>
         <Container>
             <Navbar.Brand href="#home">
             <img src={'logo'} alt="Logo" />
