@@ -29,7 +29,6 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">
@@ -54,6 +53,5 @@ export const NavBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
   )
 }
